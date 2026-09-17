@@ -1,0 +1,25 @@
+  /* design tokens */
+
+@import "./style/button.scss";
+
+:root {
+  /* Academic ledger palette */
+  --color-paper: #FAF7F0;
+  --color-ink: #1F1D1A;
+  --color-ink-soft: #5C574E;
+  --color-accent: #2F5D50;      /* deep forest green */
+  --color-accent-hover: #244840;
+  --color-border: #DDD6C7;
+  --color-error: #A13D2E;
+
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "Inter", -apple-system, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
